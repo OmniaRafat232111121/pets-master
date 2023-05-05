@@ -1,0 +1,81 @@
+.banner{
+    position:relative;
+      height: 700px;
+      max-width:100% ;
+}
+
+.banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner .banner-content{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #000;
+
+}
+.banner .banner-content h1{
+font-weight: 400;
+font-family: 'Averia Sans Libre', cursive;
+
+}
+
+.banner-round{
+    position: absolute;
+    bottom: -150px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150%;
+    height: 300px;
+    background-color: #FBF4DE;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.banner-round-content h2{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #000;
+}
+
+.banner-round-content input{
+    /* position: absolute;
+    top: 90%;
+    left: 50%;
+    width:20%;
+    font-weight: bold;
+    font-size: 18px;
+    transform: translate(-50%, -50%);
+    color:black;
+    background-color: #E8E8E8;
+    outline: none;
+    border: none;
+   padding: 10px;
+   border-radius:5px; */
+}
+.banner-search .search{
+    position: relative;
+    left:20px;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+
+}
+.faq{
+    margin-top: 200px;
+     padding:40px;
+     font-family: 'Arimo', sans-serif;
+
+
+}

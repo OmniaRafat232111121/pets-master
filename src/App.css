@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Averia+Sans+Libre:ital,wght@0,300;1,300&family=Short+Stack&display=swap');
+body{
+ font-family: 'Short Stack', cursive;
+ overflow-x: hidden;
+ /* font-family: 'Averia Sans Libre', cursive; */
+}
+:root{
+  --orange:#D87C25;
+  --green:#46C6A8;
+}
