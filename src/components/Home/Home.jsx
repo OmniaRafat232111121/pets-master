@@ -35,9 +35,9 @@ const Home = ({bannerImage,desc,faq}) => {
     <div className='faq'>
       
       <div>
-        <h3>faq</h3>
         
   <p >
+    
     {faq}
   </p>
         </div>
