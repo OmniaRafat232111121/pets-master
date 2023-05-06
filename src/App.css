@@ -2,7 +2,7 @@
 body{
  font-family: 'Short Stack', cursive;
  overflow-x: hidden;
- /* font-family: 'Averia Sans Libre', cursive; */
+ font-family: 'Averia Sans Libre', cursive;
 }
 :root{
   --orange:#D87C25;
