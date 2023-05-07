@@ -27,7 +27,7 @@ const Collection = () => {
        <Link key={item.id} to={`/${filteredData[0].name}`}>
      <img src={item.img} alt={item.name} />
 
-     <h4 class="heading">{item.name}</h4>
+     <h4 className="heading">{item.name}</h4>
 
      
    </Link>
