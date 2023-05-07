@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
-import animal from "../../assets/animal.png"
 import './Home.css'
-import Collection from '../Collections/Collection';
 import Banner from '../Banner';
 const Home = ({bannerImage,desc,faq}) => {
   const [searchTerm, setSearchTerm] = useState("");

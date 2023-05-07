@@ -18,6 +18,7 @@ const app = createBrowserRouter([
     path: "/:collectionName",
     element: <Dog/>,
   },
+  
 
 ]);
 
