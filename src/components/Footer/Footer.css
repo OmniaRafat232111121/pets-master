@@ -1,22 +1,18 @@
 .footer{
     background-color: #FBF4DE;
     display:grid;
-     grid-template-columns: repeat(3,1fr);
-      gap:10px;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 20px;
+    width:100%;
+    position: relative;     
      text-align: center;
    padding:100px;
 }
 @media (max-width:767px) {
     .footer{
-        
-       padding:20px;
-       display: flex;
-       justify-content: center;
-
+        width:70%;  
     }
-    .footer-right ul { 
-    margin-right: 120px;
-    }
+    
     
 }
 .footer .contact-info {
@@ -45,9 +41,7 @@
     color:#000;
 
 }
-.footer-right h4{
-    /* margin-left:-200px; */
-}
+
 .footer-right ul{
     margin-left:130px;
 }

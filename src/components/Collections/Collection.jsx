@@ -16,6 +16,11 @@ const Collection = () => {
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
+
+<div>
+
+
+
      <div className='image-container'>
      {filteredData.map((item) => (
        <Link key={item.id} to={`/${filteredData[0].name}`}>
@@ -29,8 +34,10 @@ const Collection = () => {
    
    
  ))}
+
      </div>
 
+    </div>
     </div>
   );
 }

@@ -2,6 +2,7 @@
     position:relative;
       height: 700px;
       max-width:100% ;
+  
 }
 
 .banner img {
@@ -38,7 +39,12 @@ font-family: 'Averia Sans Libre', cursive;
     border-radius: 50%;
     z-index: -1;
 }
-
+@media (max-width:767px) {
+    .banner-round{
+        width:90%;
+         bottom: -170px;
+    }
+}
 .banner-round-content h2{
     position: absolute;
     top: 60%;
@@ -48,21 +54,7 @@ font-family: 'Averia Sans Libre', cursive;
     color: #000;
 }
 
-.banner-round-content input{
-    /* position: absolute;
-    top: 90%;
-    left: 50%;
-    width:20%;
-    font-weight: bold;
-    font-size: 18px;
-    transform: translate(-50%, -50%);
-    color:black;
-    background-color: #E8E8E8;
-    outline: none;
-    border: none;
-   padding: 10px;
-   border-radius:5px; */
-}
+
 .banner-search .search{
     position: relative;
     left:20px;
@@ -70,10 +62,11 @@ font-family: 'Averia Sans Libre', cursive;
     height: 2rem;
     margin-left: 1rem;
     cursor: pointer;
+    margin-top: 10px;
 
 }
 .faq{
-    margin-top: 200px;
+    margin-top: 100px;
      padding:40px;
      font-family: 'Arimo', sans-serif;
 
