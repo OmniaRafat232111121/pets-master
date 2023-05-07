@@ -11,7 +11,6 @@ function App() {
 
      <Home 
      bannerImage={animal} 
-     
      desc={'If you have a question about your pet, check out our FAQs'} 
      />
      <Collection />

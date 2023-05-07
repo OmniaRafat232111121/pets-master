@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Collection.css'
 import { Link } from 'react-router-dom';
 import data from '../../data';
+import Footer from '../Footer/Footer';
 
 const Collection = () => {
     const [searchTerm, setSearchTerm] = useState("");

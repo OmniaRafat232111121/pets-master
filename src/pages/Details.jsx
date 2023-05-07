@@ -3,6 +3,7 @@ import Header from '../components/Header/Header';
 import Home from '../components/Home/Home';
 import { useParams } from 'react-router-dom';
 import data from '../data';
+import Footer from '../components/Footer/Footer';
 
 const Details = () => {
     const { collectionName } = useParams();
@@ -17,6 +18,7 @@ const Details = () => {
        faq={filteredData["0"].faq}
 
        />
+       <Footer/>
     </div>
   )
 }
